@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-Benz || Best or Nothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header>
+        <div class="nav-header">
+            <div class="logo">
+                <img src="logo.png" alt="Mercedes-Benz logo">
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#models-section">Models</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                    <li><a href="#service-section">Service</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <img src="black-mercedes-amg-car.jpg" alt="Mercedes-Benz amg" class="hero-img">
+        <div class="hero-content">
+            <h1>Welcome to Mercedes-Benz!</h1>
+            <p>Discover the perfect blend of performance, innovation, and elegance with Mercedes-Benz. The best or nothing.</p>
+            <a href="#models-section" class="btn">Explore</a>
+        </div>
+    </section>
+
+
+    <section class="about" id="about-section">
+        <h2>The Legacy of Excellence</h2>
+        <div class="card-container">
+            <div class="info-card">
+                <h3>German Engineering</h3>
+                <p>Mercedes-Benz stands as a testament to German precision, combining innovative technology with timeless design to create vehicles that define luxury on the road.</p>
+            </div>
+            <div class="info-card">
+                <h3>Herritage & Innovation</h3>
+                <p>With over 135 years of automotive excellence, Mercedes-Benz continues to pioneer new technologies while honoring its rich heritage of craftsmanship and attention to detail.</p>
+            </div>
+            <div class="info-card">
+                <h3>Comfort & Safety</h3>
+                <p>From premium leather seats with massage functions to ambient lighting that sets the perfect mood. From reinforced structures to intelligent driver-assist systems.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="models" id="models-section">
+        <div class="models-container">
+            <h2>Explore Latest Models</h2>
+            <div class="models-grid">
+                <div class="model-card">
+                    <img src="sclass.jpg" alt="Mercedes s-class">
+                    <div class="model-info">
+                        <h3>S-class</h3>
+                        <p>The pinnacle of luxury sedans, combining cutting-edge technology with unparalleled comfort.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <img src="gle.jpg" alt="Mercedes SUV GLE">
+                    <div class="model-info">
+                        <h3>GLE SUV</h3>
+                        <p>Versatile luxury SUV designed for those who demand excellence in every adventure.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>    
+                </div>  
+                <div class="model-card">
+                    <img src="amg.jpg" alt="Mercedes AMG GT">
+                    <div class="model-info">
+                        <h3>AMG GT</h3>
+                        <p>A masterpiece of engineering that delivers breathtaking performance and striking design.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>    
+                </div>    
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact-section">
+        <h2>Connect with Us</h2>
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Emial Address</label>
+                <input type="email" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" placeholder="How can we help you?"></textarea>
+            </div>
+            <button class="submit">Send</button>
+        </div>
+    </section>
+
+
+    <section class="service" id="service-section">
+        <h1>Authorized Service Centers</h1>
+            <div class="service-grid">
+                <div class="service-item">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Premium Maintenance</h3>
+                    <p>Expert technicians using genuine parts ensure your Mercedes maintains peak performance throughout its lifetime.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🔧</div>
+                    <h3>Certified Repairs</h3>
+                    <p>Factory-trained specialists utilizing advanced diagnostic tools to solve even the most complex issues.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Warranty Services</h3>
+                    <p>Comprehensive warranty coverage and extended protection plans to give you peace of mind.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">✨</div>
+                    <h3>Detailing & Care</h3>
+                    <p>Premium detailing services to keep your Mercedes looking showroom-fresh year after year.</p>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="drive" id="drive">
+        <div class="drive-container">
+            <h2>Ready for a Test Drive?</h2>
+            <p>Experience the Mercedes-Benz difference today. Visit your nearest dealership or book a test drive online.</p>
+            <a href="#" class="btn">Book Test Drive</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <img src="logo.png" alt="Mercedes-Benz Logo" class="footer-logo">
+                <p>The best or nothing.</p>
+                <div class="footer-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Models</h3>
+                <ul>
+                    <li><a href="#">Sedans</a></li>
+                    <li><a href="#">SUVs</a></li>
+                    <li><a href="#">Coupes</a></li>
+                    <li><a href="#">Convertibles</a></li>
+                    <li><a href="#">AMG</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">Service & Parts</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Mercedes Me Connect</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Designed & Created with love. © 2025 Mercedes-Benz. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
